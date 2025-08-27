@@ -1,0 +1,41 @@
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #b4c5e4;
+  color: #3c3744;
+  font-family: "Segoe UI", -apple-system, Arial, Verdana, sans-serif;
+  line-height: 1.4em;
+}
+
+header, footer {
+  background: #090c9b;
+  color: white;
+}
+
+header, footer, main {
+  padding: 0.5em 1.5em;
+}
+
+a, a:visited {
+  color: #3066be;
+}
+
+a:hover, a:active {
+  color: #090c9b;
+}
+
+footer a, footer a:visited, footer a:hover, footer a:active {
+  color: white
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+
+.buttons img {
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: -webkit-optimize-contrast
+}
